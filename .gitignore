@@ -1,0 +1,35 @@
+# Build output
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# ASP.NET Core
+appsettings.Production.json
+appsettings.Local.json
+
+# Secrets
+secrets.json
+
+# Published output
+publish/
+
+# NuGet
+*.nupkg
+packages/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Angular
+node_modules/
+dist/
+.angular/
