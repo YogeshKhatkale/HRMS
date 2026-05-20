@@ -13,7 +13,7 @@ namespace HRMS.Domain.Entities.Payroll
         public decimal? AbsentDays { get; set; }
         public decimal GrossSalary { get; set; }
         public decimal TotalEarnings { get; set; }
-        public decimal TotalEarning {  get; set; }
+       
         public decimal TotalDeductions { get; set; }
         public decimal NetSalary { get; set; }
         public string Status { get; set; } = "Generated";

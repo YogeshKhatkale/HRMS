@@ -36,11 +36,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Nagesh\\OneDrive\\Documents\\HRMS\\HRMS\\HRMS.Application\\HRMS.Application.csproj",
+      "projectUniqueName": "C:\\Projects\\HRMS\\HRMS.Application\\HRMS.Application.csproj",
       "projectName": "HRMS.Application",
-      "projectPath": "C:\\Users\\Nagesh\\OneDrive\\Documents\\HRMS\\HRMS\\HRMS.Application\\HRMS.Application.csproj",
+      "projectPath": "C:\\Projects\\HRMS\\HRMS.Application\\HRMS.Application.csproj",
       "packagesPath": "C:\\Users\\Nagesh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nagesh\\OneDrive\\Documents\\HRMS\\HRMS\\HRMS.Application\\obj\\",
+      "outputPath": "C:\\Projects\\HRMS\\HRMS.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -61,8 +61,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Nagesh\\OneDrive\\Documents\\HRMS\\HRMS\\HRMS.Domain\\HRMS.Domain.csproj": {
-              "projectPath": "C:\\Users\\Nagesh\\OneDrive\\Documents\\HRMS\\HRMS\\HRMS.Domain\\HRMS.Domain.csproj"
+            "C:\\Projects\\HRMS\\HRMS.Domain\\HRMS.Domain.csproj": {
+              "projectPath": "C:\\Projects\\HRMS\\HRMS.Domain\\HRMS.Domain.csproj"
             }
           }
         }
