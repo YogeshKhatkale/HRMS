@@ -42,4 +42,20 @@ public class AuthController : ControllerBase
             return BadRequest(new { message = ex.Message });
         }
     }
+    [HttpGet("me")]
+    [Microsoft.AspNetCore.Authorization.Authorize]
+    public IActionResult GetCurrentUser()
+    {
+        var email = User.FindFirst(System.Security.Claims.ClaimTypes.Email)?.Value;
+        var role = User.FindFirst(System.Security.Claims.ClaimTypes.Role)?.Value;
+        var userId = User.FindFirst("uid")?.Value;
+
+        return Ok(new
+        {
+            email,
+            role,
+            userId,
+            message = "You are authenticated!"
+        });
+    }
 }
